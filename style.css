@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+outline: none;
+font-family: "Rubik", sans-serif;
+}
+
+.wrapper {
+    background-color: whitesmoke;
+    width: 100%;
+    height: auto;
+}
+
+nav {
+    display: flex;
+    padding: 40px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    text-indent: 150px;
+    margin-top: 12px;
+}
+
+nav p {
+    width: 100px;
+    margin-top: 10px;
+    text-indent: 20px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.hover a{
+    color: #F35F2F;
+}
+
+nav button {
+    width: 100px;
+    height: 35px;
+    transform: translate(100px);
+    border: 2px solid #F35F2F;
+    border-radius: 5px;
+    color: white;
+    background-color: #F35F2F;
+}
+
+nav ul li a:hover {
+    color: #F35F2F;
+    transition: 0.3s;
+}
+
+.icons h1 {
+    margin-left: 70px;
+    transform: translateY(270px);
+    font-size: 70px;
+}
+
+.icons p {
+    margin-left: 70px;
+    font-size: 25px;
+}
+
+.icons img {
+  width: 600px;
+    transform: translate(650px,100px);
+}
+
+.icons button {
+margin-left: 70px;
+margin-top: 30px;
+width: 150px;
+height: 40px;
+border: 2px solid #F35F2F;
+border-radius: 8px;
+background-color: #F35F2F;
+color: white;
+}
+
+.carts h1{
+margin-left:450px ;
+}
+
+.carts img {
+transform: translate(100px,100px);
+}
+
+.carts {
+    margin-top: 150px;
+}
+
+.card h1{
+margin-top: 200px;
+margin-left: 450px;
+}
+
+.card img {
+    transform: translate(60px,100px);
+}
+
+.more img{
+    transform: translate(50px,300px);
+}
+
+.more {
+    width: 1200px;
+    gap: 100px;
+}
+
+.more h1 {
+    transform: translate(500px,500px);
+    width: 800px;
+} 
+.comment-image {
+    display: flex;
+    margin-top: 200px;
+}
+
+.comment {
+    display: flex;
+    gap:200px;
+    margin-top: 300px;
+    transform: translate(120px,1100px);
+}
+.com {
+display: flex;
+width: 1000px;
+transform: translate(150px,950px);
+gap: 200px;
+}
+
+.more button {
+    margin-top: 400px;
+    margin-left: 600px;
+    height: 30px;
+    width: 200px;
+    border: 2px solid #F35F2F;
+    border-radius: 8px;
+    color: white;
+    background-color: #F35F2F;
+}
+
+
+form img {
+    width: 1200px;
+}
+
+form h1 {
+    margin-top: 100px;
+    margin-left: 500px;
+}
+
+.Team img{
+    transform: translate(200px);
+}
+
+
+.Team h1{
+  transform: translate(600px);
+  width: 100px;
+}
+
+.Team .im {
+    transform: translate(200px,1020px);
+}
+
+.Team p {
+    transform: translate(350px);
+    width: 600px;
+}
+
+.Team .name {
+    color: #F35F2F;
+}
+
+.contact{
+    width: 100%;
+    padding: 110px 360px;
+}
+
+.contact > h1{
+    font-size: 38px;
+    text-align: center;
+}
+
+form{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
+
+.contact-names{
+    display: flex;
+    gap: 30px;
+}
+
+.contact form input{
+    width: 340px;
+    height: 52px;
+    outline: none;
+    color: grey;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+.contact form textarea{
+    width: 100%;
+    border: none;
+    padding: 20px;
+    height: 191px;
+}
+
+.contact form button{
+    width: 207px;
+    height: 50px;
+    border: none;
+    background-color: #F35F2F;
+    color: white;
+    font-size: 18px;
+}
+
+.footer .footer-icons {
+display: flex;
+width: 100%;
+}
+
+.footer-icon {
+    transform: translateY(240px);
+}
+ .footer-icons   {
+    line-height: 30px;  
+    width: 50px;
+    flex-direction: column; 
+    transform: translateY(215px);
+}
+
+.footer-icons img {
+    width: 200px;
+}
+
+.footer .footer-links a{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+.footer-links {
+    flex-direction: column;
+    gap: 40px;  
+}
+
+.link {
+    display: flex;
+    margin-left: 500px;
+    gap: 40px;
+    line-height: 30px;
+transform: translateY(185px);
+}
+
+
+.footer-links ul li {
+    list-style: none;
+}
+
+.icon {
+    transform: translateY(100px);
+    margin: 10px;
+}
+
+.footer-subscribe {
+    margin-left: 900px;
+    flex-direction: column;
+    display: flex;
+}
+
+.footer-subscribe input {
+height: 40px;
+width: 290px;
+}
+
+.footer-subscribe button {
+    width: 290px;
+    height: 40px;
+    margin-top: 10px;
+    border: 2px solid #F35F2F;
+    border-radius: 10px;
+    background-color: #F35F2F;
+    color: white;
+}
+
+.focus-line {
+    width: 1345px;
+    height: 1px;
+    background-color: grey;
+    margin-top: 50px;
+}
+
+.focus-text {
+    display: flex;
+    margin-top: 30px;
+}
+
+.focus-text a {
+    text-decoration: none;
+    color: black;
+margin-left: 200px;
+}
+
+
+
